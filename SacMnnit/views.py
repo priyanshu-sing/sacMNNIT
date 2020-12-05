@@ -17,6 +17,9 @@ def president(request):
 def contact(request): 
 	return render(request,'SacMnnit/contact.html', {})
 
+def achievements(request): 
+	return render(request,'SacMnnit/achievements.html', {})
+
 def contactmail(request):
 	name = request.POST.get('name')
 	email = request.POST.get('email')

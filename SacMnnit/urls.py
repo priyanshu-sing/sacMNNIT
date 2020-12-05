@@ -18,8 +18,8 @@ from django.urls import path
 from django.conf import settings
 from django.conf.urls import include, url
 from django.conf.urls.static import static  
-from SacMnnit.views import ( home,president,contact,downloads,contactmail )
-from Technical.views import ( avishkar,technological, )
+from SacMnnit.views import ( home,president,contact,downloads,contactmail,achievements )
+from Technical.views import ( avishkar,technological,hack36,prosang)
 from Cultural.views import ( classical,culrav,literary,eloquence,cultural,mhrd )
 from Athletics.views import ( yoga,annual_athletics,josh,games,athletics )
 
@@ -29,6 +29,8 @@ urlpatterns = [
 
 	path('avishkar', avishkar, name='avishkar'),
 	path('technological', technological, name='technological'),
+	path('hack36', hack36, name='hack36'),
+	path('prosang', prosang, name='prosang'),
 
 	path('culrav', culrav, name='culrav'),
 	path('literary', literary, name='literary'),
@@ -44,6 +46,7 @@ urlpatterns = [
 	path('games', games, name='games'),
 	path('yoga', yoga, name='yoga'),
 
+    path('achievements', achievements, name='achievements'),
 	path('downloads', downloads, name='downloads'),
 	path('president', president, name='president'),
 	path('contact', contact, name='contact'),

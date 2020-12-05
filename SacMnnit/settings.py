@@ -20,7 +20,7 @@ DATABASES = {
         'NAME': PROJECT_DIR.child('db.sqlite3'),
     }
 } 
-ALLOWED_HOSTS = ['172.31.102.250','210.212.49.51', 'sac.mnnit.ac.in']
+ALLOWED_HOSTS = ['172.31.102.250','210.212.49.51', 'sac.mnnit.ac.in', 'localhost']
 
 #for local
 
@@ -38,6 +38,7 @@ ALLOWED_HOSTS = ['172.31.102.250','210.212.49.51', 'sac.mnnit.ac.in']
 ADMINS = (   
     ('WOC','wocmnnit@gmail.com'),
     ('Deepak Bharti','deepakbharti823@gmail.com'),
+    ('Priyanshu Singh', 'priyanshusingh@mnnit.ac.in'),
     )
       
   
