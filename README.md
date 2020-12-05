@@ -3,7 +3,7 @@
 sacMnnit is responsible for organising various cultural and technical events in MNNIT.<br>
 Website - <br>
 
-[SAC18 | MNNIT](http://sac.mnnit.ac.in/) <br>
+[SAC19 | MNNIT](http://sac.mnnit.ac.in/) <br>
 
 <img src="./SacMnnit/static/images/slider.jpg">
 
